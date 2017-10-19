@@ -4,14 +4,14 @@ function addElementToBeginningOfArray(a, b) {
   return [b, ...a]
 }
 
-function destructivelyAddElementToBeginningOfArray(a, b) {
-  return a.unshift(b)
+function destructivelyAddElementToBeginningOfArray(array, element) {
+  return array.unshift(element)
 }
 
 function addElementToEndOfArray(a, b) {
   return [...a, b]
 }
 
-function destructivelyAddElementToEndOfArray(a, b) {
-  return a.push(b)
+function destructivelyAddElementToEndOfArray(array, element) {
+  return array.push(element)
 }
